@@ -1,6 +1,4 @@
 #menu {
-    margin-left: -160px; /* "#menu" width */
-    width: 160px;
     position: fixed;
     top: 0;
     left: 0;
