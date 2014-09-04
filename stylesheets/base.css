@@ -8,7 +8,7 @@
 */
 
 
-/* Table of Content
+/* Table of Contents
 ==================================================
 	#Reset & Basics
 	#Basic Styles
@@ -19,7 +19,8 @@
 	#Images
 	#Buttons
 	#Forms
-	#Misc */
+	#Misc
+	#Header/Footer */
 
 
 /* #Reset & Basics (Inspired by E. Meyers)
@@ -266,4 +267,6 @@
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
 
+/* #Header/Footer
+================================================== */
 
