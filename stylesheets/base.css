@@ -269,4 +269,75 @@
 
 /* #Header/Footer
 ================================================== */
+	a.hlink { color:#FFFFFF; background-color: #333; text-decoration: none; outline: 0; height:20px; }
+	a.hlink:hover, a.hlink:focus, a.hlink:active { background-color: #000; }
+	li.hlink {display:inline-block; height:20px; background-color:#333;}
 
+a.current {
+	background-color:#000;
+}
+	
+nav {
+/*  background-color:#333;
+  height:0px; */
+}
+nav ul {
+  font-family: Arial, Verdana;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ 
+nav ul li {
+  display: block;
+  position: relative;
+  float: left;
+ 
+}
+ 
+nav li ul { 
+  display: none; 
+}
+ 
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 7px 0px 3px 0px;
+  color: #ffffff;  
+  margin-left: 0px;
+  white-space: nowrap;
+  height:30px; /* Width and height of top-level nav items */
+  width:67px;
+  text-align:center;
+ 
+}
+ 
+nav ul li a:hover { 
+  background: #617F8A; 
+}
+ 
+nav li:hover ul {
+  display: block;
+  position: absolute;
+  height:20px;
+}
+ 
+nav li:hover li {
+  float: none;
+  font-size: 11px;
+ 
+}
+ 
+nav li:hover a { 
+  background: #3A464F; 
+  height:20px; /* Height of lower-level nav items is shorter than main level */
+}
+ 
+nav li:hover li a:hover { 
+  background: #95A9B1; 
+}
+ 
+nav ul li ul li a {
+    text-align:left; /* Top-level items are centered, but nested list items are left-aligned */
+}
